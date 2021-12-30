@@ -1,0 +1,191 @@
+body{
+  background-color: #edf6f9;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.row.is-flex {
+  display: flex;
+}
+
+.row.is-flex > [class*='col-'] {
+  position: relative;
+}
+
+.is-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.is-right {
+  text-align: right;
+}
+
+h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.payments {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: url("https://stripe.com/img/v3/pricing/payments/title-icon.svg") no-repeat;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.icon-for-section {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.credit {
+  background: url("https://stripe.com/img/v3/pricing/payments/section-cards.svg") no-repeat;
+}
+.bitcoin {
+  background: url("https://stripe.com/img/v3/pricing/payments/section-bitcoin.svg") no-repeat; 
+}
+.ach {
+  background: url("https://stripe.com/img/v3/pricing/payments/section-ach.svg") no-repeat;
+}
+.disputes {
+  background: url("https://stripe.com/img/v3/pricing/payments/section-disputes.svg") no-repeat;
+}
+.features {
+  background: url("https://stripe.com/img/v3/pricing/payments/section-features.svg") no-repeat;
+}
+
+.card-brands {
+  display: inline-block;
+  height: 25px;
+  background: url("https://stripe.com/img/v3/pricing/payments/card-brands.svg") no-repeat;
+  background-size: normal;
+}
+
+.visa {
+  width: 44px;
+  background-position: -1px -1px;
+}
+.marter-card {
+  width: 41px;
+  background-position: -72px -1px;
+}
+.american-express {
+  width: 52px;
+  background-position: -139px -1px;
+}
+.discover {
+  width: 56px;
+  background-position: -275px -1px;
+}
+.jcb {
+  width: 28px;
+  background-position: -358px -1px;
+}
+.dinners {
+  width: 29px;
+  background-position: -218px -1px;
+}
+
+.price-column {
+  position: relative;
+}
+
+.price-column::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: rgba(52,21,112,.075);
+}
+
+.price-details {
+  padding-left: 30px;
+}
+
+.bullets {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+
+.bullets:before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: url("https://stripe.com/img/v3/pricing/payments/detailsList-bullet.svg") no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.typo-h2, typo-h3 {
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #0d2b3e;
+}
+.typo-h3 {
+  font-size: 2rem;
+}
+
+.typo-price {
+  font-width: 400;
+  font-size: 2.5rem;
+  color: #00ab1c;
+}
+
+p, .typo-list {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #566b78;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #566b78;
+}
+
+a:link {
+  color: #008cdd;
+}
+a:visited {
+  color: #008cdd;
+}
+
+.arrow-size {
+  font-size: 1rem;
+  position: relative;
+  top: -0.5px;
+}
+
+.row-space {
+  margin: 20px 0;
+}
+.list-space {
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 992px) {
+  
+  .small-none {
+    display: none;
+  }
+}
